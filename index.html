@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/fontawesome.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Custom JS -->
+    <script src="js/script.js" defer></script>
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js" defer></script>
+    <!-- Dark mode toggler -->
+
+    <title>Daniel Deaconescu Digital Resume</title>
+  </head>
+  <body>
+    <main class="digital-resume py-5">
+      <div class="dark-light-buttons">
+        <button class="btn btn-dark" data-bs-theme-value="dark">Dark</button>
+        <button class="btn btn-light" data-bs-theme-value="light">Light</button>
+      </div>
+
+      <div class="container digital-resume-container">
+        <!-- header -->
+        <div class="digital-resume-header align-items-center d-flex gap-4">
+          <div class="resume-pic-container">
+            <img
+              class="img-fluid rounded-3 resume-img"
+              src="./assets/images/profile_pic.jpg"
+              alt=""
+            />
+          </div>
+          <div class="resume-header-info">
+            <h1>Daniel Deaconescu</h1>
+            <p>Front-end web developer & PHP enthusiast.</p>
+            <div>
+              <span>
+                <i class="fa-regular fa-envelope"></i>
+              </span>
+              <span>daniel.deaconescu98@gmail.com</span>
+            </div>
+            <div>
+              <span>
+                <i class="fa-brands fa-whatsapp"></i>
+              </span>
+              <span>0750419349</span>
+            </div>
+          </div>
+        </div>
+        <!-- Social buttons -->
+        <div class="digital-resume-socials pt-3 d-flex gap-3">
+          <div class="social-item">
+            <a
+              class="social adjustment"
+              href="https://github.com/DanielDeaconescu"
+              target="_blank"
+              >GitHub</a
+            >
+          </div>
+          <div class="social-item">
+            <a
+              class="social adjustment"
+              href="https://www.codewars.com/users/DanielDea"
+              target="_blank"
+              >Codewars</a
+            >
+          </div>
+          <div class="social-item">
+            <a
+              class="social adjustment"
+              href="https://www.freecodecamp.org/DanielDeaconescu"
+              target="_blank"
+              >freeCodeCamp</a
+            >
+          </div>
+        </div>
+        <!-- download button -->
+        <div class="digital-resume-download pt-3">
+          <a
+            class="resume-download-link d-flex gap-2 align-items-center"
+            target="_blank"
+            download="resume_Daniel_Deaconescu.pdf"
+            href="./assets/resume_Daniel_Deaconescu.pdf"
+          >
+            <span class="download-icon adjustment">
+              <i class="fa-solid fa-2x fa-download"></i>
+            </span>
+            <span class="download-text adjustment">Download Resume</span>
+          </a>
+        </div>
+        <!-- technical skills -->
+        <div class="technical-skills pt-3 row">
+          <h3>Technical skills</h3>
+          <ul class="tech-skills-list">
+            <li>
+              <i class="fa-solid fa-code"></i>
+              HTML, CSS, JavaScript
+            </li>
+            <li>
+              <i class="fa-solid fa-code"></i>
+              Responsive Design
+            </li>
+            <li>
+              <i class="fa-solid fa-code"></i>
+              Currently learning React
+            </li>
+            <li>
+              <i class="fa-solid fa-code"></i>
+              Basic PHP Development
+            </li>
+            <li>
+              <i class="fa-solid fa-code"></i>
+              Basics of Git and GitHub
+            </li>
+          </ul>
+        </div>
+        <!-- Work Hisory -->
+        <div class="work-history pt-3">
+          <h3>Work history</h3>
+          <div class="horizontal-rule"></div>
+          <!-- work history card 1-->
+          <div class="work-history-card pt-4">
+            <h4 class="job-title">Network Administrator</h4>
+            <small class="job-duration">May 2022 - March 2023</small>
+            <h5 class="job-section-header">Brief job description</h5>
+            <p class="job-description">
+              Worked in the Technical Department of a company that was reselling
+              IPv4 addresses along with infrastructure services.
+            </p>
+            <h5 class="job-section-header">Main responsibilities:</h5>
+            <ul class="job-tasks-list">
+              <li>Troubleshooting connectivity issues</li>
+              <li>Creating/updating DNS/rDNS records</li>
+              <li>
+                Installing Operating Systems on dedicated servers and VPSs
+              </li>
+              <li>Monitoring the connectivity for IP ranges</li>
+            </ul>
+          </div>
+          <div class="horizontal-rule"></div>
+          <!-- work history card 2-->
+          <div class="work-history-card pt-4">
+            <h4 class="job-title">Help Desk Technician</h4>
+            <small class="job-duration">April 2021 - May 2022</small>
+            <h5 class="job-section-header">Brief job description</h5>
+            <p class="job-description">
+              Acted as the first point of contact between end users and other
+              support teams, aiming to solve as many incidents as possible as
+              "First Time Fix".
+            </p>
+            <h5 class="job-section-header">Core responsibilities:</h5>
+            <ul class="job-tasks-list">
+              <li>
+                Fixing basic connectivity issues (VPN, wi-fi, hotspot, cable)
+              </li>
+              <li>Fixing network printers</li>
+              <li>Creating different accounts for users in Active Direcory</li>
+              <li>Mapping shared drives</li>
+              <li>Granting/removing certain permissions from users</li>
+              <li>
+                Throughly documenting the reported issue as well as the
+                troubleshooting steps
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Learning & Development -->
+        <section class="learning-development">
+          <h3>Learning & Development</h3>
+          <div class="learn-dev-item pb-3">
+            <a class="learn-dev-link adjustment" href="#"
+              >Currently completing The Odin Project</a
+            >
+          </div>
+          <div class="learn-dev-item pb-3">
+            <a class="learn-dev-link adjustment" href="#"
+              >Ongoing PHP Learning from YouTube</a
+            >
+          </div>
+          <div class="learn-dev-item pb-3">
+            <a class="learn-dev-link adjustment" href="#"
+              >Currently reading "Eloquent JavaScript", Marijn Haverbeke</a
+            >
+          </div>
+          <div class="learn-dev-item pb-3">
+            <a class="learn-dev-link adjustment" href="#">
+              Completed "Responsive Web Design" course on freeCodeCamp
+            </a>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="js/darkmodetoggle.js"></script>
+  </body>
+</html>
